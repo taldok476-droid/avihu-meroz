@@ -1032,9 +1032,6 @@ h3 {
   font-size: 10px;
   color: #bdb5a8;
 }
-.mobile-booking {
-  display: none;
-}
 .floating-whatsapp {
   position: fixed;
   bottom: 25px;
@@ -1113,9 +1110,6 @@ h3 {
     max-width: 100%;
     overflow-x: hidden;
     overflow-x: clip;
-  }
-  body {
-    padding-bottom: calc(60px + env(safe-area-inset-bottom));
   }
   .entrance-mark,
   .marquee i {
@@ -1499,34 +1493,6 @@ h3 {
     margin: 0;
     color: #9f988e;
     font-size: 10px;
-  }
-  .mobile-booking {
-    position: fixed;
-    inset: auto 0 0;
-    z-index: 35;
-    display: flex;
-    background: #29231e;
-    color: var(--bg);
-    border-top: 1px solid #ffffff26;
-    box-shadow: 0 -12px 32px #17120f24;
-    backdrop-filter: blur(12px);
-    padding: 6px 10px calc(6px + env(safe-area-inset-bottom));
-    gap: 7px;
-  }
-  .mobile-booking a {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    min-height: 48px;
-    border: 1px solid #ffffff40;
-    font-size: 12px;
-  }
-  .mobile-booking a:first-child {
-    background: var(--acid);
-    border-color: var(--acid);
-    color: var(--ink);
   }
   .floating-whatsapp {
     display: none;

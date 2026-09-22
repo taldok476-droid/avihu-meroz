@@ -1,6 +1,5 @@
 import {
   ArrowUp,
-  CalendarDays,
   Instagram,
   MessageCircle,
   Phone,
@@ -89,20 +88,6 @@ export function Footer() {
           </p>
         </div>
       </footer>
-      <div className="mobile-booking">
-        <a href={site.bookingUrl || "#contact"}>
-          <CalendarDays size={19} />
-          קביעת תור
-        </a>
-        <a
-          href={site.whatsappUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <MessageCircle size={19} />
-          וואטסאפ
-        </a>
-      </div>
       <a
         className="floating-whatsapp"
         href={site.whatsappUrl}
