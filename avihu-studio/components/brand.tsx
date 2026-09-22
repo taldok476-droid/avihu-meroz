@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export function Brand({ onClick }: { onClick?: () => void }) {
   return (
     <a
@@ -6,14 +8,14 @@ export function Brand({ onClick }: { onClick?: () => void }) {
       onClick={onClick}
       aria-label="אביהו מרוז — לראש העמוד"
     >
-      <span lang="en" dir="ltr">
-        AM<span>®</span>
-      </span>
-      <small>
-        אביהו מרוז
-        <br />
-        HAIR ART STUDIO
-      </small>
+      <Image
+        className="brand-logo"
+        src="/images/avihu-meroz-logo.png"
+        alt="אביהו מרוז — Hair Art Studio"
+        width={1254}
+        height={1254}
+        priority
+      />
     </a>
   );
 }

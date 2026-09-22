@@ -9,7 +9,10 @@ import { site } from "@/data/site";
 export const metadata: Metadata = {
   title: "אביהו מרוז | תספורות ילדים, אמנות שיער ואקדמיה",
   description: `הסטודיו של אביהו מרוז ב${site.location}. תספורות ילדים, פיידים מדויקים, אמנות שיער ואקדמיה לספרות עם יחס אישי.`,
-  icons: { icon: "/favicon.svg" },
+  icons: {
+    icon: "/favicon.png",
+    apple: "/favicon.png",
+  },
 };
 export default function RootLayout({
   children,
