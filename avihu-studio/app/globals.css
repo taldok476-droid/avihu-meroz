@@ -1114,6 +1114,16 @@ h3 {
     overflow-x: hidden;
     overflow-x: clip;
   }
+  body {
+    padding-bottom: calc(60px + env(safe-area-inset-bottom));
+  }
+  .entrance-mark,
+  .marquee i {
+    display: none;
+  }
+  .marquee-phrase {
+    padding-inline-end: 0.55em;
+  }
   .shell {
     width: calc(100% - 40px);
   }
@@ -1438,7 +1448,7 @@ h3 {
   }
   .footer-mobile {
     display: block;
-    padding-block: 42px calc(86px + env(safe-area-inset-bottom));
+    padding-block: 42px 30px;
   }
   .footer-mobile-heading {
     display: flex;
@@ -1495,8 +1505,10 @@ h3 {
     inset: auto 0 0;
     z-index: 35;
     display: flex;
-    background: #29231ef2;
+    background: #29231e;
     color: var(--bg);
+    border-top: 1px solid #ffffff26;
+    box-shadow: 0 -12px 32px #17120f24;
     backdrop-filter: blur(12px);
     padding: 6px 10px calc(6px + env(safe-area-inset-bottom));
     gap: 7px;
